@@ -1,5 +1,5 @@
 repo=$1
-cd app
+cd my_app
 git init
 bundle update
 git remote remove origin
