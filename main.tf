@@ -4,7 +4,7 @@ provider "heroku" {
 }
 
 resource "heroku_app" "default" {
-  name   = "${var.name}"
+  name   = "${var.app_name}"
   region = "eu"
 
   buildpacks = [
